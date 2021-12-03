@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  Form {
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+.ui.form .field>label
+{
+  color: gray !important;
+}
+
+.header-nav a:not(.button) 
+{
+  padding: 0 6px !important;
+}
+
+.container-xs a
+{
+  margin: 20px 0 !important;
+}
+
+.features-tiles-item-image 
+{
+  padding: 11px !important;
+}
+
+.ContactForm
+{
+margin-top: 100px !important;
+}
+
+.ui.green.button{
+  background-color: rgb(164,177,205) !important;
+}
+
+.footer-right {
+  float:right !important;
+} 
+
+.form-control {
+
+
+
+  
+  margin-left: auto !important;
+    margin-right: auto !important;
+    width: 20em !important;
+    background-color: transparent;
+    
+}
+input::placeholder {
+  color: blue;
+
+}
+p {
+  animation-duration: 2ms;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 80%;
+  }
+}
+
